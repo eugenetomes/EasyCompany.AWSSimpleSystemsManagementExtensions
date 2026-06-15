@@ -1,1 +1,11 @@
-<Solution />
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Sample1/Sample1.csproj" Id="5ed54f79-5a9b-4bc6-91be-165debf4e306" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement/EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement.csproj" Id="4f589054-cf6d-4986-9401-4970a1bb96cc" />
+  </Folder>
+  <Folder Name="/_solution items/">
+    <File Path="README.md" />
+  </Folder>
+</Solution>

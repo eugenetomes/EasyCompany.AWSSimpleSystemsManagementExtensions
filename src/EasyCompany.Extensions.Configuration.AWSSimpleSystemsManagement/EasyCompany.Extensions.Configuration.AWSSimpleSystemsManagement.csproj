@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	<PackageId>EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement</PackageId>
+	<Title>EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement</Title>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Authors>Eugene Tomes</Authors>
+	<Company>TomesDev</Company>
+	<PackageProjectUrl>https://github.com/eugenetomes/EasyCompany.AWSSimpleSystemsManagementExtensions</PackageProjectUrl>
+	<Description>Contains a provider for Microsoft.Extensions.Configuration to retrieve AWS Simple Systems Management parameters</Description>
+	<Summary>Contains a provider for Microsoft.Extensions.Configuration to retrieve AWS Simple Systems Management parameters</Summary>
+	<RepositoryUrl>https://github.com/eugenetomes/EasyCompany.AWSSimpleSystemsManagementExtensions</RepositoryUrl>
+	<PackageTags>aspnet asp.net aspnetcore asp.net core aws simplesystemsmanagement</PackageTags>
+	<PackageReleaseNotes>Initial Extension</PackageReleaseNotes>
+	<Version>1.0.0</Version>
+	<AssemblyName>EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement</AssemblyName>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	<LangVersion>10.0</LangVersion>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="4.0.8.4" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.9" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
