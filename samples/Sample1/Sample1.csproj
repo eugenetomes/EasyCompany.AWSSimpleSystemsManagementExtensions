@@ -16,4 +16,10 @@
     <ProjectReference Include="..\..\src\EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement\EasyCompany.Extensions.Configuration.AWSSimpleSystemsManagement.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
